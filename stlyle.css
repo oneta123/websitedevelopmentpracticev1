@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monrserrat sans-serif;
+    color: white;
+}
+    
+body{
+    background-image: url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.navbar{
+    display: flex;
+    padding: 10px 150px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+
+.nav-link ul{
+    display: flex;
+    list-style: none;
+    gap:40px;
+    
+    
+}
+
+.nav-link ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link ul li a:hover{
+    color: gray;
+    transition: .3s;
+}
+.signin-access{
+    display: flex;
+    gap: 30px;
+    justify-items: center;
+}
+
+.navbar .signin-access .access .get-access{
+    background-color: green;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.navbar .signin-access .access .get-access:hover{
+    color: white;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.navbar .signin-access .signin{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    justify-items: center;
+   
+}
+.navbar .signin-access .signin:hover{
+    transform: scale(1.2);
+    
+}
+
+.down{
+    padding-left: 150px;
+    padding-top: 50px;
+    text-align: justify;
+}
+.down ul li{
+    text-decoration: none;
+    list-style: none;
+   
+
+}
+.down ul h2{
+    color: black;
+}
